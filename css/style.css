@@ -56,7 +56,16 @@ header {
   background: url(../images/main_banner.png) no-repeat;
   background-size: cover;
   padding-top: 60px;
-  padding-bottom: 160px; }
+  padding-bottom: 160px;
+  position: relative; }
+  .main .main_bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%; }
+    .main .main_bottom img {
+      width: 100%;
+      display: block; }
   .main .main_btn {
     background: linear-gradient(90deg, #FCCAFF 0%, #FDDEFF 17.19%, #FCD1FF 37.5%, #FCCBFF 76.04%, #FCCAFF 100%);
     box-shadow: -4px -4px 10px rgba(251, 182, 255, 0.5), 4px 4px 10px rgba(251, 182, 255, 0.5);
@@ -71,11 +80,29 @@ header {
   .main p {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
     margin-left: 19px;
-    max-width: 50%; }
+    max-width: 50%;
+    padding-bottom: 88px; }
+    .main p:last-of-type {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      color: #FFFFFF;
+      padding: 10px;
+      background: rgba(251, 182, 255, 0.21);
+      border-radius: 10px;
+      margin-left: 0; }
+      .main p:last-of-type:before {
+        font-family: "Font Awesome 6 Free";
+        content: "\f004";
+        font-weight: 900;
+        display: inline-block;
+        margin-right: 5px;
+        color: #FDCBFF; }
 
 /*# sourceMappingURL=style.css.map */
