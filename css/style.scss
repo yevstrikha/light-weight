@@ -78,12 +78,17 @@ header {
     padding: 8px 17px;
     color: white;
     margin-left: 65px;
+    transition: 0.3s;
+
+    &:hover {
+      color: black;
+    }
   }
 }
 
 //M A I N//
 .main {
-  background: url(../images/main_banner.png) no-repeat;
+  background: url(../images/main_banner.jpg) no-repeat;
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 160px;
@@ -99,29 +104,35 @@ header {
     top: 33px;
     left: 0;
   }
-  .polygon_2{
+
+  .polygon_2 {
     left: 165px;
     bottom: 310px;
     transform: rotate(79deg);
   }
-  .polygon_3{
+
+  .polygon_3 {
     left: 550px;
     bottom: 333px;
     transform: scale(0.55);
   }
-  .polygon_4{
+
+  .polygon_4 {
     right: 70px;
     top: 90px;
     transform: rotate(316deg);
-    img{
+
+    img {
       transform: scale(0.55);
     }
   }
-  .polygon_5{
+
+  .polygon_5 {
     right: 325px;
     bottom: 90px;
     transform: rotate(28deg);
-    img{
+
+    img {
       transform: scale(1.1);
     }
   }
@@ -143,13 +154,21 @@ header {
     box-shadow: -4px -4px 10px rgba(251, 182, 255, 0.5), 4px 4px 10px rgba(251, 182, 255, 0.5);
     border-radius: 10px;
     padding: 9px 15px;
-    color: white;
     margin-bottom: 40px;
     position: relative;
     max-width: 300px;
     width: 100%;
     text-align: center;
     cursor: pointer;
+    transition: 0.3s;
+
+    a {
+      color: white;
+    }
+
+    &:hover a {
+      color: black;
+    }
 
     .flower {
       position: absolute;
@@ -176,7 +195,8 @@ header {
     margin-left: 19px;
     max-width: 50%;
     padding-bottom: 88px;
-        &:last-of-type {
+
+    &:last-of-type {
       font-style: normal;
       font-weight: 700;
       font-size: 14px;
@@ -287,6 +307,56 @@ header {
       font-weight: 400;
       font-size: 14px;
       line-height: 16px;
+    }
+  }
+}
+
+
+//R E G I S T R A T I O N//
+.registration {
+  background: url(../images/reg_backgroung.jpg) no-repeat;
+  background-size: cover;
+  padding: 30px 0;
+  position: relative;
+
+  .reg_cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 60%;
+  }
+
+  .container {
+    position: inherit;
+    z-index: 2;
+text-align: center;
+    h2 {
+      max-width: 520px;
+      margin: auto;
+      text-align: center;
+    }
+
+    a {
+      background: linear-gradient(90deg, #FCCAFF 0%, #FDDEFF 17.19%, #FCD1FF 37.5%, #FCCBFF 76.04%, #FCCAFF 100%);
+      box-shadow: -4px -4px 10px rgba(251, 182, 255, 0.5), 4px 4px 10px rgba(251, 182, 255, 0.5);
+      border-radius: 10px;
+      padding: 9px 15px;
+      position: relative;
+      max-width: 300px;
+      width: 100%;
+      text-align: center;
+      cursor: pointer;
+      color: white;
+      transition: 0.3s;
+      margin-top: 12px;
+      &:hover {
+        color: black;
+
+      }
+
     }
   }
 }
