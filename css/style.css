@@ -15,6 +15,14 @@ h2 {
   line-height: 42px;
   color: #FFFFFF; }
 
+h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000; }
+
 li {
   list-style: none; }
 
@@ -104,5 +112,73 @@ header {
         display: inline-block;
         margin-right: 5px;
         color: #FDCBFF; }
+
+.online_program {
+  background-color: #fff;
+  margin-bottom: 40px; }
+  .online_program h3 {
+    text-align: center;
+    max-width: 470px;
+    margin: auto; }
+  .online_program .online_steps {
+    margin-top: 12px;
+    position: relative;
+    padding-top: 44px; }
+  .online_program .container {
+    padding: 0 40px; }
+  .online_program .vertical_line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 1px;
+    height: 100%;
+    background: #c1c1c1; }
+  .online_program .step {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    position: relative; }
+    .online_program .step .left_step {
+      text-align: right;
+      max-width: 310px;
+      width: 100%; }
+    .online_program .step .right_step {
+      max-width: 310px;
+      width: 100%;
+      text-align: left; }
+    .online_program .step .step_number {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 38px;
+      height: 38px;
+      background: linear-gradient(90deg, #FCCAFF 0%, #FDDEFF 17.19%, #FCD1FF 37.5%, #FCCBFF 76.04%, #FCCAFF 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%; }
+      .online_program .step .step_number p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: black; }
+    .online_program .step .title {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 6px;
+      margin-right: 0; }
+    .online_program .step p {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px; }
 
 /*# sourceMappingURL=style.css.map */
