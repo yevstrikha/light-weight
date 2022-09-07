@@ -66,6 +66,33 @@ header {
   padding-top: 60px;
   padding-bottom: 160px;
   position: relative; }
+  .main .polygon {
+    position: absolute;
+    width: 50px;
+    height: 50px; }
+  .main .polygon_1 {
+    top: 33px;
+    left: 0; }
+  .main .polygon_2 {
+    left: 165px;
+    bottom: 310px;
+    transform: rotate(79deg); }
+  .main .polygon_3 {
+    left: 550px;
+    bottom: 333px;
+    transform: scale(0.55); }
+  .main .polygon_4 {
+    right: 70px;
+    top: 90px;
+    transform: rotate(316deg); }
+    .main .polygon_4 img {
+      transform: scale(0.55); }
+  .main .polygon_5 {
+    right: 325px;
+    bottom: 90px;
+    transform: rotate(28deg); }
+    .main .polygon_5 img {
+      transform: scale(1.1); }
   .main .main_bottom {
     position: absolute;
     left: 0;
@@ -80,7 +107,18 @@ header {
     border-radius: 10px;
     padding: 9px 15px;
     color: white;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer; }
+    .main .main_btn .flower {
+      position: absolute;
+      bottom: -16px;
+      left: -22px;
+      width: 40px;
+      height: 40px; }
   .main h2 {
     margin-bottom: 11px;
     margin-left: 19px;

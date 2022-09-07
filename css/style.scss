@@ -89,6 +89,43 @@ header {
   padding-bottom: 160px;
   position: relative;
 
+  .polygon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+  }
+
+  .polygon_1 {
+    top: 33px;
+    left: 0;
+  }
+  .polygon_2{
+    left: 165px;
+    bottom: 310px;
+    transform: rotate(79deg);
+  }
+  .polygon_3{
+    left: 550px;
+    bottom: 333px;
+    transform: scale(0.55);
+  }
+  .polygon_4{
+    right: 70px;
+    top: 90px;
+    transform: rotate(316deg);
+    img{
+      transform: scale(0.55);
+    }
+  }
+  .polygon_5{
+    right: 325px;
+    bottom: 90px;
+    transform: rotate(28deg);
+    img{
+      transform: scale(1.1);
+    }
+  }
+
   .main_bottom {
     position: absolute;
     left: 0;
@@ -108,6 +145,19 @@ header {
     padding: 9px 15px;
     color: white;
     margin-bottom: 40px;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+
+    .flower {
+      position: absolute;
+      bottom: -16px;
+      left: -22px;
+      width: 40px;
+      height: 40px;
+    }
   }
 
   h2 {
@@ -126,8 +176,7 @@ header {
     margin-left: 19px;
     max-width: 50%;
     padding-bottom: 88px;
-
-    &:last-of-type {
+        &:last-of-type {
       font-style: normal;
       font-weight: 700;
       font-size: 14px;
@@ -182,7 +231,7 @@ header {
   }
 
   .step {
-    margin-bottom:  40px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -211,14 +260,15 @@ header {
       justify-content: center;
       align-items: center;
       border-radius: 50%;
-p{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  color: black;
-}
+
+      p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: black;
+      }
     }
 
     .title {
