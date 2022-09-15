@@ -360,3 +360,199 @@ text-align: center;
     }
   }
 }
+
+
+              //M O N E Y _ B A C K//
+.money_back{
+  padding-top: 36px;
+  padding-bottom: 57px;
+  background-color: #f2f2f2;
+  text-align: center;
+  h3{
+    margin-bottom: 5px;
+  }
+  p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  .percentages{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    p{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #000000;
+      margin-bottom: 0;
+      &:first-of-type{
+        margin-top: 10px;
+        margin-bottom: 6px;
+        font-weight: 700;
+      }
+    }
+    .lose_weight{
+
+          }
+    .do_nothing{
+
+    }
+    .go_fat{
+
+    }
+    .circle{
+      border: 4px solid #c1c1c1;
+      border-radius: 50%  ;
+      height: 165px;
+      width: 165px;
+      margin: auto;
+      position: relative;
+    }
+    .number{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 56px;
+      color: #989898;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+
+                    //M A R A T H O N
+.marathon{
+  overflow: hidden;
+
+  .marathon_title{
+    background: url(../images/will_know.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    padding: 8px;
+    .cover{
+      top: 0;
+      left: 0;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: #000000;
+      opacity: 60%;
+    }
+    h2{
+      position: relative;
+      z-index: 2;
+    }
+  }
+  .marathon_content{
+    position: relative;
+    padding: 60px 0;
+    background-color: #f2f2f2;
+    .background_text{
+      position: relative;
+      top: -75px;
+      p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 144px;
+        line-height: 169px;
+        color: #ECECEC;
+        width: 150%;
+        &:first-of-type{
+
+          margin-left: -650px;
+          margin-bottom: 185px;
+        }
+        &:last-of-type{
+          margin-left: -50px;
+        }
+      }
+    }
+    .marathon_body{
+      .container{
+        .marathon_block{
+          position: absolute;
+          max-width: 780px;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100%;
+          background-color: #fff;
+        }
+        .top_blocks, .bottom_blocks{
+          display: flex;
+          justify-content: center;
+          p{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: right;
+            color: #000000;
+            max-width: 150px;
+            width: 100%;
+          }
+
+        }
+        .top_blocks{
+          .understand_body{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            img{
+              display: block;
+            }
+          }
+          .meal_plan{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            p{
+              text-align: left;
+              padding-left: 10px;            }
+          }
+        }
+        .bottom_blocks{
+          .motivation{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            p{
+              margin-left: 25px;
+              margin-right: 5px;
+              text-align: left;
+            }
+            img{
+              display: block;
+            }
+          }
+          .healthy_food{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            p{
+              padding-right: 10px;
+              text-align: left;
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
