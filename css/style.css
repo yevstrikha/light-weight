@@ -459,4 +459,15 @@ header {
           margin-bottom: 5px;
           font-weight: 700; }
 
+.program_options {
+  background: url(../images/program_opt.png) no-repeat;
+  background-size: cover;
+  padding-top: 115px;
+  padding-bottom: 215px;
+  text-align: center; }
+  .program_options h2 {
+    color: black;
+    font-weight: 700;
+    margin-bottom: 77px; }
+
 /*# sourceMappingURL=style.css.map */
