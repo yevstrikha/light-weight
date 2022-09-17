@@ -49,19 +49,24 @@ header {
       display: flex;
       justify-content: space-between; }
       header .header_menu ul li {
-        margin-right: 31px; }
+        margin-right: 31px;
+        border-bottom: solid 2px transparent;
+        transition: 0.3s; }
+        header .header_menu ul li:hover {
+          border-bottom: solid 2px #FCCAFF; }
         header .header_menu ul li:last-of-type {
           margin-right: 0; }
   header .btn {
     background: linear-gradient(90deg, #FCCAFF 0%, #FDDEFF 17.19%, #FCD1FF 37.5%, #FCCBFF 76.04%, #FCCAFF 100%);
-    box-shadow: 0px 4px 4px rgba(253, 145, 255, 0.36);
+    box-shadow: 3px -3px 4px rgba(253, 145, 255, 0.36);
     border-radius: 10px;
     padding: 8px 17px;
     color: white;
     margin-left: 65px;
     transition: 0.3s; }
     header .btn:hover {
-      color: black; }
+      color: black;
+      box-shadow: -3px 4px 4px rgba(253, 145, 255, 0.36); }
 
 .main {
   background: url(../images/main_banner.jpg) no-repeat;
@@ -404,5 +409,54 @@ header {
       .marathon .marathon_content .marathon_body .container .bottom_blocks .healthy_food p {
         padding-right: 10px;
         text-align: left; }
+
+.reviews .reviews_title {
+  background: url(../images/will_know.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  padding: 8px;
+  box-shadow: 5px -4px 7px #888888; }
+  .reviews .reviews_title .cover {
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    opacity: 60%; }
+  .reviews .reviews_title h2 {
+    position: relative;
+    z-index: 2; }
+.reviews .review_content {
+  background-color: #fff;
+  padding: 50px 0; }
+  .reviews .review_content .container .review {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center; }
+    .reviews .review_content .container .review:last-of-type {
+      margin-bottom: 0; }
+    .reviews .review_content .container .review .user {
+      margin-top: 23px;
+      margin-right: 15px;
+      height: 72px;
+      width: 72px;
+      border-radius: 50px;
+      overflow: hidden; }
+      .reviews .review_content .container .review .user img {
+        display: block; }
+    .reviews .review_content .container .review .review_block {
+      position: relative; }
+      .reviews .review_content .container .review .review_block img {
+        display: block; }
+      .reviews .review_content .container .review .review_block .review_text {
+        position: absolute;
+        top: 28px;
+        left: 58px;
+        max-width: 550px; }
+        .reviews .review_content .container .review .review_block .review_text .user_name {
+          margin-bottom: 5px;
+          font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */

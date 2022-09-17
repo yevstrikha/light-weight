@@ -63,6 +63,12 @@ header {
 
       li {
         margin-right: 31px;
+        border-bottom: solid 2px transparent;
+        transition: 0.3s;
+
+        &:hover {
+          border-bottom: solid 2px #FCCAFF;
+        }
 
         &:last-of-type {
           margin-right: 0;
@@ -73,7 +79,7 @@ header {
 
   .btn {
     background: linear-gradient(90deg, #FCCAFF 0%, #FDDEFF 17.19%, #FCD1FF 37.5%, #FCCBFF 76.04%, #FCCAFF 100%);
-    box-shadow: 0px 4px 4px rgba(253, 145, 255, 0.36);
+    box-shadow: 3px -3px 4px rgba(253, 145, 255, 0.36);
     border-radius: 10px;
     padding: 8px 17px;
     color: white;
@@ -82,6 +88,8 @@ header {
 
     &:hover {
       color: black;
+      box-shadow: -3px 4px 4px rgba(253, 145, 255, 0.36);
+
     }
   }
 }
@@ -332,7 +340,8 @@ header {
   .container {
     position: inherit;
     z-index: 2;
-text-align: center;
+    text-align: center;
+
     h2 {
       max-width: 520px;
       margin: auto;
@@ -352,6 +361,7 @@ text-align: center;
       color: white;
       transition: 0.3s;
       margin-top: 12px;
+
       &:hover {
         color: black;
 
@@ -362,16 +372,18 @@ text-align: center;
 }
 
 
-              //M O N E Y _ B A C K//
-.money_back{
+//M O N E Y _ B A C K//
+.money_back {
   padding-top: 36px;
   padding-bottom: 57px;
   background-color: #f2f2f2;
   text-align: center;
-  h3{
+
+  h3 {
     margin-bottom: 5px;
   }
-  p{
+
+  p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -380,11 +392,13 @@ text-align: center;
     color: #000000;
     margin-bottom: 30px;
   }
-  .percentages{
+
+  .percentages {
     display: flex;
     justify-content: space-between;
     padding: 0 15px;
-    p{
+
+    p {
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 400;
@@ -392,30 +406,36 @@ text-align: center;
       line-height: 16px;
       color: #000000;
       margin-bottom: 0;
-      &:first-of-type{
+
+      &:first-of-type {
         margin-top: 10px;
         margin-bottom: 6px;
         font-weight: 700;
       }
     }
-    .lose_weight{
 
-          }
-    .do_nothing{
+    .lose_weight {
 
     }
-    .go_fat{
+
+    .do_nothing {
 
     }
-    .circle{
+
+    .go_fat {
+
+    }
+
+    .circle {
       border: 4px solid #c1c1c1;
-      border-radius: 50%  ;
+      border-radius: 50%;
       height: 165px;
       width: 165px;
       margin: auto;
       position: relative;
     }
-    .number{
+
+    .number {
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 400;
@@ -431,17 +451,18 @@ text-align: center;
 }
 
 
-                    //M A R A T H O N
-.marathon{
+//M A R A T H O N
+.marathon {
   overflow: hidden;
 
-  .marathon_title{
+  .marathon_title {
     background: url(../images/will_know.jpg) no-repeat;
     background-size: cover;
     text-align: center;
     position: relative;
     padding: 8px;
-    .cover{
+
+    .cover {
       top: 0;
       left: 0;
       position: absolute;
@@ -450,19 +471,23 @@ text-align: center;
       background-color: #000000;
       opacity: 60%;
     }
-    h2{
+
+    h2 {
       position: relative;
       z-index: 2;
     }
   }
-  .marathon_content{
+
+  .marathon_content {
     position: relative;
     padding: 60px 0;
     background-color: #f2f2f2;
-    .background_text{
+
+    .background_text {
       position: relative;
       top: -75px;
-      p{
+
+      p {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -470,19 +495,22 @@ text-align: center;
         line-height: 169px;
         color: #ECECEC;
         width: 150%;
-        &:first-of-type{
+
+        &:first-of-type {
 
           margin-left: -650px;
           margin-bottom: 185px;
         }
-        &:last-of-type{
+
+        &:last-of-type {
           margin-left: -50px;
         }
       }
     }
-    .marathon_body{
-      .container{
-        .marathon_block{
+
+    .marathon_body {
+      .container {
+        .marathon_block {
           position: absolute;
           max-width: 780px;
           top: 50%;
@@ -491,10 +519,12 @@ text-align: center;
           width: 100%;
           background-color: #fff;
         }
-        .top_blocks, .bottom_blocks{
+
+        .top_blocks, .bottom_blocks {
           display: flex;
           justify-content: center;
-          p{
+
+          p {
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
@@ -507,48 +537,131 @@ text-align: center;
           }
 
         }
-        .top_blocks{
-          .understand_body{
+
+        .top_blocks {
+          .understand_body {
             width: 50%;
             display: flex;
             align-items: center;
-            img{
+
+            img {
               display: block;
             }
           }
-          .meal_plan{
+
+          .meal_plan {
             width: 50%;
             display: flex;
             align-items: center;
-            p{
+
+            p {
               text-align: left;
-              padding-left: 10px;            }
+              padding-left: 10px;
+            }
           }
         }
-        .bottom_blocks{
-          .motivation{
+
+        .bottom_blocks {
+          .motivation {
             width: 50%;
             display: flex;
             align-items: center;
-            p{
+
+            p {
               margin-left: 25px;
               margin-right: 5px;
               text-align: left;
             }
-            img{
+
+            img {
               display: block;
             }
           }
-          .healthy_food{
+
+          .healthy_food {
             width: 50%;
             display: flex;
             align-items: center;
             justify-content: flex-end;
 
-            p{
+            p {
               padding-right: 10px;
               text-align: left;
 
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+//R E V I E W S//
+.reviews {
+  .reviews_title {
+    background: url(../images/will_know.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    padding: 8px;
+    box-shadow: 5px -4px 7px #888888;
+
+    .cover {
+      top: 0;
+      left: 0;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: #000000;
+      opacity: 60%;
+    }
+
+    h2 {
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  .review_content {
+    background-color: #fff;
+    padding: 50px 0;
+
+    .container {
+      .review {
+        display: flex;
+        margin-bottom: 15px;
+        justify-content: center;
+        &:last-of-type{
+          margin-bottom: 0;
+        }
+        .user {
+          margin-top: 23px;
+          margin-right: 15px;
+          height: 72px;
+          width: 72px;
+          border-radius: 50px;
+          overflow: hidden;
+
+          img {
+            display: block;
+          }
+        }
+
+        .review_block {
+          position: relative;
+
+          img {
+            display: block;
+          }
+          .review_text{
+            position: absolute;
+            top: 28px;
+            left: 58px;
+            max-width: 550px;
+            .user_name{
+              margin-bottom: 5px;
+              font-weight: 700;
             }
           }
         }
