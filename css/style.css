@@ -469,5 +469,18 @@ header {
     color: black;
     font-weight: 700;
     margin-bottom: 77px; }
+  .program_options .cards {
+    display: flex;
+    justify-content: space-between; }
+    .program_options .cards .card {
+      max-width: 270px;
+      width: 100%;
+      height: 152px;
+      transition: 0.5s;
+      background: url(../images/card.jpg) no-repeat;
+      background-size: cover;
+      cursor: pointer; }
+      .program_options .cards .card:hover {
+        transform: scale(1.2); }
 
 /*# sourceMappingURL=style.css.map */
