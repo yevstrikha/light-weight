@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
     <link rel="shortcut icon" href="images/favicons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 
 </head>
 <body>
@@ -21,68 +22,75 @@
                 <img src="images/logo.svg" alt="logo">
             </a>
         </div>
-        <div class="header_menu">
-            <ul>
-                <li>
-                    <a href="">О программе</a>
-                </li>
-                <li>
-                    <a href="">Гарантия</a>
-                </li>
-                <li>
-                    <a href="">Отзывы</a>
-                </li>
-                <li>
-                    <a href="">Цены</a>
-                </li>
-                <li>
-                    <a href="">Задать вопрос</a>
-                </li>
+        <div class="hamburger"><span></span></div>
 
-            </ul>
-            <a href="#" class="btn">Регистрация</a>
+        <div id="paper-back" class="header_menu">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">О программе</a>
+                    </li>
+                    <li>
+                        <a href="">Гарантия</a>
+                    </li>
+                    <li>
+                        <a href="">Отзывы</a>
+                    </li>
+                    <li>
+                        <a href="">Цены</a>
+                    </li>
+                    <li>
+                        <a href="">Задать вопрос</a>
+                    </li>
 
+                </ul>
+                <a href="#" class="btn">Регистрация</a>
+
+            </nav>
         </div>
-
     </div>
 </header>
-<section class="main">
-    <div class="polygon polygon_3">
-        <img src="images/polygon.png" alt="">
-    </div>
-    <div class="polygon polygon_4">
-        <img src="images/polygon.png" alt="">
-    </div>
-    <div class="polygon polygon_5">
-        <img src="images/polygon.png" alt="">
-    </div>
-    <div class="main_bottom">
-        <img src="images/main_bottom.png" alt="">
-    </div>
-    <div class="container">
-        <div class="main_btn">
-            <a href="#" class=" btn">МАРАФОН ЗДОРОВОГО ПИТАНИЯ</a>
-            <div class="flower">
-                <img src="images/flower.png" alt="">
-            </div>
-            <div class="polygon polygon_1">
+<div id="paper-window">
+    <div id="paper-front">
+        <section class="main">
+            <div class="polygon polygon_3">
                 <img src="images/polygon.png" alt="">
             </div>
+            <div class="polygon polygon_4">
+                <img src="images/polygon.png" alt="">
+            </div>
+            <div class="polygon polygon_5">
+                <img src="images/polygon.png" alt="">
+            </div>
+            <div class="main_bottom">
+                <img src="images/main_bottom.png" alt="">
+            </div>
+            <div class="container">
+                <div class="main_btn">
+                    <a href="#" class=" btn">МАРАФОН ЗДОРОВОГО ПИТАНИЯ</a>
+                    <div class="flower">
+                        <img src="images/flower.png" alt="">
+                    </div>
+                    <div class="polygon polygon_1">
+                        <img src="images/polygon.png" alt="">
+                    </div>
 
-        </div>
-        <h2>“Стройное и здоровое тело
-            за 2 недели!”</h2>
-        <p>авторский инновационный подход Борисова Юна Митрофановна,
-            который направлен на оздоровление и омоложение
-            организма без изнуряющих физических нагрузок, стрессов и
-            голодания.
-        <div class="polygon polygon_2">
-            <img src="images/polygon.png" alt="">
-        </div>
-        </p>
-        <p>с любовью к себе раз и навсегда измени свою жизнь к лучшему</p>
+                </div>
+                <h2>“Стройное и здоровое тело
+                    за 2 недели!”</h2>
+                <p>авторский инновационный подход Борисова Юна Митрофановна,
+                    который направлен на оздоровление и омоложение
+                    организма без изнуряющих физических нагрузок, стрессов и
+                    голодания.</p>
+                <div class="polygon polygon_2">
+                    <img src="images/polygon.png" alt="">
+                </div>
+
+                <p>с любовью к себе раз и навсегда измени свою жизнь к лучшему</p>
+            </div>
+        </section>
     </div>
-</section>
+</div>
 <section class="online_program">
     <div class="container">
         <h3>
@@ -359,7 +367,7 @@
             <div class="card card_medium">
                 <h3>Medium</h3>
                 <p>
-                    *  Все возможности пакета “Light”
+                    * Все возможности пакета “Light”
                     <br><br>
                     * Доступ к закрытой группе с всеми участниками интенсива
                     <br><br>
@@ -370,7 +378,7 @@
             <div class="card card_pro">
                 <h3>PRO</h3>
                 <p>
-                    *  Все возможности пакета “Medium”
+                    * Все возможности пакета “Medium”
                     <br><br>
                     * Личное курирование от Дмитрия Лукьяненко ваших результатов и успехов
                     <br><br>
@@ -384,19 +392,23 @@
     <div class="b_triangle"></div>
 </section>
 <footer>
-<div class="footer_content">
-<div class="footer_img">
-    <img src="images/footer-image.png" alt="">
-</div>
-    <div class="footer_text">
-        <h2>“Стройное и здоровое тело
-            за 2 недели!”</h2>
-        <img src="images/footer_bunner.png" alt="">
-        <h3>Ведущий курса: <br>
-            Борисова Юна Митрофановна</h3>
+    <div class="footer_content">
+        <div class="footer_img">
+            <img src="images/footer-image.png" alt="">
+        </div>
+        <div class="footer_text">
+            <h2>“Стройное и здоровое тело
+                за 2 недели!”</h2>
+            <img src="images/footer_bunner.png" alt="">
+            <h3>Ведущий курса: <br>
+                Борисова Юна Митрофановна</h3>
+        </div>
     </div>
-</div>
 </footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="scripts/mobile_menu.js"></script>
+
 <script src="https://kit.fontawesome.com/973f964fd1.js" crossorigin="anonymous"></script>
 </html>
