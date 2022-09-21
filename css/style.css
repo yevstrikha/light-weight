@@ -329,7 +329,8 @@ header {
     background-size: cover;
     text-align: center;
     position: relative;
-    padding: 8px; }
+    padding: 8px;
+    z-index: 2; }
     .marathon .marathon_title .cover {
       top: 0;
       left: 0;
@@ -371,7 +372,8 @@ header {
       background-color: #fff; }
     .marathon .marathon_content .marathon_body .container .top_blocks, .marathon .marathon_content .marathon_body .container .bottom_blocks {
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      flex-wrap: wrap; }
       .marathon .marathon_content .marathon_body .container .top_blocks p, .marathon .marathon_content .marathon_body .container .bottom_blocks p {
         font-family: 'Roboto';
         font-style: normal;
@@ -385,20 +387,29 @@ header {
     .marathon .marathon_content .marathon_body .container .top_blocks .understand_body {
       width: 50%;
       display: flex;
-      align-items: center; }
+      align-items: center;
+      justify-content: space-between; }
       .marathon .marathon_content .marathon_body .container .top_blocks .understand_body img {
-        display: block; }
+        display: block;
+        width: 100%; }
+      .marathon .marathon_content .marathon_body .container .top_blocks .understand_body p {
+        margin-left: 5px;
+        margin-right: 25px; }
     .marathon .marathon_content .marathon_body .container .top_blocks .meal_plan {
       width: 50%;
       display: flex;
-      align-items: center; }
+      align-items: center;
+      justify-content: space-between; }
       .marathon .marathon_content .marathon_body .container .top_blocks .meal_plan p {
         text-align: left;
-        padding-left: 10px; }
+        padding-left: 10px;
+        margin-left: 5px;
+        margin-right: 25px; }
     .marathon .marathon_content .marathon_body .container .bottom_blocks .motivation {
       width: 50%;
       display: flex;
-      align-items: center; }
+      align-items: center;
+      justify-content: space-between; }
       .marathon .marathon_content .marathon_body .container .bottom_blocks .motivation p {
         margin-left: 25px;
         margin-right: 5px;
@@ -408,11 +419,12 @@ header {
     .marathon .marathon_content .marathon_body .container .bottom_blocks .healthy_food {
       width: 50%;
       display: flex;
-      align-items: center;
-      justify-content: flex-end; }
+      align-items: center; }
       .marathon .marathon_content .marathon_body .container .bottom_blocks .healthy_food p {
         padding-right: 10px;
-        text-align: left; }
+        text-align: left;
+        margin-left: 25px;
+        margin-right: 5px; }
 
 .reviews .reviews_title {
   background: url(../images/will_know.jpg) no-repeat;
@@ -488,7 +500,8 @@ header {
     display: flex;
     justify-content: space-between;
     position: relative;
-    z-index: 2; }
+    z-index: 2;
+    flex-wrap: wrap; }
     .program_options .cards .card {
       max-width: 270px;
       width: 100%;

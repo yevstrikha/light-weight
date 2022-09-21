@@ -152,6 +152,9 @@
       transform: translateY(-50%) rotate(-45deg);
     }
   }
+  .marathon .marathon_content .background_text p{
+    line-height: 70px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -195,49 +198,81 @@
       margin-top: 0;
     }
   }
-  .online_program{
+  .online_program {
     padding-top: 35px;
 
   }
 }
 
 @media only screen and (max-width: 820px) {
-  .online_program{
+  .online_program {
 
-    .vertical_line{
+    .vertical_line {
       left: 0;
     }
-    .step{
+
+    .step {
       display: block;
-      .left_step{
+
+      .left_step {
         text-align: left;
         margin-left: 35px;
 
       }
-      .right_step{
+
+      .right_step {
         margin-left: 35px;
       }
-      .step_number{
+
+      .step_number {
         left: 0;
       }
     }
   }
-.money_back{
-  .percentages{
-    justify-content: center;
-    .do_nothing{
-      margin: 67px 0;
+  .money_back {
+    .percentages {
+      justify-content: center;
+
+      .do_nothing {
+        margin: 67px 0;
+      }
     }
   }
+
+  .marathon .marathon_content .marathon_body .container .bottom_blocks .motivation{
+    width: 100%;
+    order: 2;
+  }
+  .marathon .marathon_content .marathon_body .container .bottom_blocks .healthy_food{
+    width: 100%;
+    order: 4;
+    justify-content: space-between;
+  }
+  .marathon .marathon_content .marathon_body .container .top_blocks .understand_body {
+    width: 100%;
+    order: 1;
+  }
+  .marathon .marathon_content .marathon_body .container .top_blocks .meal_plan{
+    width: 100%;
+    order: 3;
+  }
+  .marathon .marathon_content .marathon_body .container .marathon_block {
+    max-width: 396px;
+    margin-top: 150px;
+  }
+
 }
+
+@media only screen and (max-width: 600px) {
+  .marathon .marathon_content .marathon_body .container .marathon_block {
+    margin-top: 100px;
+  }
 }
 
-@media only screen and (max-width: 420px) {
-
-}
-
-@media only screen and (max-width: 375px) {
-
+@media only screen and (max-width: 568px) {
+  .marathon .marathon_content .marathon_body .container .marathon_block {
+    margin-top: 35px;
+  }
 }
 
 @media only screen and (max-width: 360px) {

@@ -100,7 +100,10 @@
     .close:before {
       transform: translateY(-50%) rotate(45deg); }
     .close:after {
-      transform: translateY(-50%) rotate(-45deg); } }
+      transform: translateY(-50%) rotate(-45deg); }
+
+  .marathon .marathon_content .background_text p {
+    line-height: 70px; } }
 @media only screen and (max-width: 992px) {
   .container {
     padding: 0 15px; }
@@ -149,6 +152,33 @@
   .money_back .percentages {
     justify-content: center; }
     .money_back .percentages .do_nothing {
-      margin: 67px 0; } }
+      margin: 67px 0; }
+
+  .marathon .marathon_content .marathon_body .container .bottom_blocks .motivation {
+    width: 100%;
+    order: 2; }
+
+  .marathon .marathon_content .marathon_body .container .bottom_blocks .healthy_food {
+    width: 100%;
+    order: 4;
+    justify-content: space-between; }
+
+  .marathon .marathon_content .marathon_body .container .top_blocks .understand_body {
+    width: 100%;
+    order: 1; }
+
+  .marathon .marathon_content .marathon_body .container .top_blocks .meal_plan {
+    width: 100%;
+    order: 3; }
+
+  .marathon .marathon_content .marathon_body .container .marathon_block {
+    max-width: 396px;
+    margin-top: 150px; } }
+@media only screen and (max-width: 600px) {
+  .marathon .marathon_content .marathon_body .container .marathon_block {
+    margin-top: 100px; } }
+@media only screen and (max-width: 568px) {
+  .marathon .marathon_content .marathon_body .container .marathon_block {
+    margin-top: 35px; } }
 
 /*# sourceMappingURL=media.css.map */
