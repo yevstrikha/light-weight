@@ -490,8 +490,9 @@ nav{
     background-color: #f2f2f2;
 
     .background_text {
-      position: relative;
-      top: -75px;
+      position: absolute;
+      z-index: 1;
+      top: -22px;
 
       p {
         font-family: 'Roboto';
@@ -515,14 +516,17 @@ nav{
     }
 
     .marathon_body {
+      position: relative;
+      z-index: 2;
       .container {
         .marathon_block {
-          position: absolute;
+          //position: absolute;
           max-width: 780px;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
+          //top: 50%;
+          //left: 50%;
+          //transform: translate(-50%, -50%);
           width: 100%;
+          margin: auto;
           background-color: #fff;
         }
 

@@ -347,8 +347,9 @@ header {
     padding: 60px 0;
     background-color: #f2f2f2; }
     .marathon .marathon_content .background_text {
-      position: relative;
-      top: -75px; }
+      position: absolute;
+      z-index: 1;
+      top: -22px; }
       .marathon .marathon_content .background_text p {
         font-family: 'Roboto';
         font-style: normal;
@@ -362,69 +363,69 @@ header {
           margin-bottom: 185px; }
         .marathon .marathon_content .background_text p:last-of-type {
           margin-left: -50px; }
-    .marathon .marathon_content .marathon_body .container .marathon_block {
-      position: absolute;
-      max-width: 780px;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 100%;
-      background-color: #fff; }
-    .marathon .marathon_content .marathon_body .container .top_blocks, .marathon .marathon_content .marathon_body .container .bottom_blocks {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap; }
-      .marathon .marathon_content .marathon_body .container .top_blocks p, .marathon .marathon_content .marathon_body .container .bottom_blocks p {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        text-align: right;
-        color: #000000;
-        max-width: 150px;
-        width: 100%; }
-    .marathon .marathon_content .marathon_body .container .top_blocks .understand_body {
-      width: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between; }
-      .marathon .marathon_content .marathon_body .container .top_blocks .understand_body img {
-        display: block;
-        width: 100%; }
-      .marathon .marathon_content .marathon_body .container .top_blocks .understand_body p {
-        margin-left: 5px;
-        margin-right: 25px; }
-    .marathon .marathon_content .marathon_body .container .top_blocks .meal_plan {
-      width: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between; }
-      .marathon .marathon_content .marathon_body .container .top_blocks .meal_plan p {
-        text-align: left;
-        padding-left: 10px;
-        margin-left: 5px;
-        margin-right: 25px; }
-    .marathon .marathon_content .marathon_body .container .bottom_blocks .motivation {
-      width: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between; }
-      .marathon .marathon_content .marathon_body .container .bottom_blocks .motivation p {
-        margin-left: 25px;
-        margin-right: 5px;
-        text-align: left; }
-      .marathon .marathon_content .marathon_body .container .bottom_blocks .motivation img {
-        display: block; }
-    .marathon .marathon_content .marathon_body .container .bottom_blocks .healthy_food {
-      width: 50%;
-      display: flex;
-      align-items: center; }
-      .marathon .marathon_content .marathon_body .container .bottom_blocks .healthy_food p {
-        padding-right: 10px;
-        text-align: left;
-        margin-left: 25px;
-        margin-right: 5px; }
+    .marathon .marathon_content .marathon_body {
+      position: relative;
+      z-index: 2; }
+      .marathon .marathon_content .marathon_body .container .marathon_block {
+        max-width: 780px;
+        width: 100%;
+        margin: auto;
+        background-color: #fff; }
+      .marathon .marathon_content .marathon_body .container .top_blocks, .marathon .marathon_content .marathon_body .container .bottom_blocks {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .marathon .marathon_content .marathon_body .container .top_blocks p, .marathon .marathon_content .marathon_body .container .bottom_blocks p {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: right;
+          color: #000000;
+          max-width: 150px;
+          width: 100%; }
+      .marathon .marathon_content .marathon_body .container .top_blocks .understand_body {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        .marathon .marathon_content .marathon_body .container .top_blocks .understand_body img {
+          display: block;
+          width: 100%; }
+        .marathon .marathon_content .marathon_body .container .top_blocks .understand_body p {
+          margin-left: 5px;
+          margin-right: 25px; }
+      .marathon .marathon_content .marathon_body .container .top_blocks .meal_plan {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        .marathon .marathon_content .marathon_body .container .top_blocks .meal_plan p {
+          text-align: left;
+          padding-left: 10px;
+          margin-left: 5px;
+          margin-right: 25px; }
+      .marathon .marathon_content .marathon_body .container .bottom_blocks .motivation {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        .marathon .marathon_content .marathon_body .container .bottom_blocks .motivation p {
+          margin-left: 25px;
+          margin-right: 5px;
+          text-align: left; }
+        .marathon .marathon_content .marathon_body .container .bottom_blocks .motivation img {
+          display: block; }
+      .marathon .marathon_content .marathon_body .container .bottom_blocks .healthy_food {
+        width: 50%;
+        display: flex;
+        align-items: center; }
+        .marathon .marathon_content .marathon_body .container .bottom_blocks .healthy_food p {
+          padding-right: 10px;
+          text-align: left;
+          margin-left: 25px;
+          margin-right: 5px; }
 
 .reviews .reviews_title {
   background: url(../images/will_know.jpg) no-repeat;

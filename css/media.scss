@@ -206,39 +206,24 @@
 
 @media only screen and (max-width: 820px) {
   .online_program {
-
     .vertical_line {
       left: 0;
     }
 
     .step {
       display: block;
-
       .left_step {
         text-align: left;
         margin-left: 35px;
-
       }
-
       .right_step {
         margin-left: 35px;
       }
-
       .step_number {
         left: 0;
       }
     }
   }
-  .money_back {
-    .percentages {
-      justify-content: center;
-
-      .do_nothing {
-        margin: 67px 0;
-      }
-    }
-  }
-
   .marathon .marathon_content .marathon_body .container .bottom_blocks .motivation{
     width: 100%;
     order: 2;
@@ -260,13 +245,53 @@
     max-width: 396px;
     margin-top: 150px;
   }
+  .marathon .marathon_content .marathon_body .container .marathon_block{
+    margin-top: 0;
+  }
+  .marathon .marathon_content .background_text{
+    display: none;
+  }
+}
+@media only screen and (max-width: 787px) {
+  .money_back {
+    .percentages {
+      justify-content: space-around;
 
+      .do_nothing, .lose_weight, .go_fat{
+        width: 100%;
+
+      }
+      .do_nothing {
+        margin: 67px 0;
+      }
+    }
+  }
+.main{
+  h2{
+    max-width: 70%;
+  }
+  p{
+    max-width: 70%;
+    &:last-of-type{
+      max-width: 80%;
+    }
+  }
+}
+  .registration {
+    background: url(../images/reg_backgroung_mobile.jpg);
+    .container{
+      a{
+        max-width: 200px;
+    }
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .marathon .marathon_content .marathon_body .container .marathon_block {
     margin-top: 100px;
   }
+
 }
 
 @media only screen and (max-width: 568px) {
@@ -275,9 +300,6 @@
   }
 }
 
-@media only screen and (max-width: 360px) {
-
-}
 
 @media only screen and (max-width: 320px) {
 
