@@ -196,9 +196,36 @@
       max-width: 200px; } }
 @media only screen and (max-width: 600px) {
   .marathon .marathon_content .marathon_body .container .marathon_block {
-    margin-top: 100px; } }
+    margin-top: 100px; }
+
+  .reviews .review_content .container .review {
+    background-color: #f0f0f0;
+    border-radius: 9px;
+    padding: 9px 9px 30px 9px;
+    justify-content: flex-start;
+    max-width: 250px;
+    margin: auto;
+    flex-wrap: wrap;
+    position: relative; }
+    .reviews .review_content .container .review .user {
+      margin-top: 0;
+      margin-bottom: 9px;
+      box-shadow: 0px 3px 6px 4px #b6b6b6; }
+    .reviews .review_content .container .review .review_block {
+      position: static; }
+      .reviews .review_content .container .review .review_block img {
+        display: none; }
+      .reviews .review_content .container .review .review_block .review_text {
+        position: static;
+        left: 0; }
+        .reviews .review_content .container .review .review_block .review_text .user_name {
+          position: absolute;
+          top: 35px;
+          left: 95px; } }
 @media only screen and (max-width: 568px) {
   .marathon .marathon_content .marathon_body .container .marathon_block {
-    margin-top: 35px; } }
+    margin-top: 35px; }
+    .marathon .marathon_content .marathon_body .container .marathon_block .top_blocks img {
+      width: 50%; } }
 
 /*# sourceMappingURL=media.css.map */

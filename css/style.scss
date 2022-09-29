@@ -5,7 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body{
+  overflow-x: hidden;
+}
 a {
   text-decoration: none;
 }
@@ -555,6 +557,7 @@ nav{
             display: flex;
             align-items: center;
             justify-content: space-between;
+
             img {
               display: block;
               width: 100%;
