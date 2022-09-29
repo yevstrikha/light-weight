@@ -516,7 +516,8 @@ header {
       padding: 22px 33px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between; }
+      justify-content: space-between;
+      margin: 5px; }
       .program_options .cards .card:hover {
         transform: scale(1.2); }
       .program_options .cards .card h3 {
